@@ -1,0 +1,912 @@
+*{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+#header{
+  text-align: center;
+  width: 100%;
+  height: 450px;
+  background-image: url("image/fish4.jpg");
+  background-position: center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+   background-size: cover;
+  -o-background-size:cover;
+  background-opacity:0.3;
+  padding-top:70px; 
+}
+
+#fish{
+  background-image:url("image/aqua2.gif");
+  border:3px solid white;
+  box-shadow: 2px 2px 2px white;
+  font-size: 30px;
+  width: 400px;
+  margin:0 auto;
+  color: #e4e8ec;
+  font-weight: bold;
+  padding: 10px 7px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#fish:first-letter{
+  font-size: 70px;
+  color:#c8dfee;
+}
+
+#menu{
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-size: 15px;
+  font-weight: bold;
+  width:100px; 
+  padding: 7px 7px;
+  background: #7671e6;
+  color: white;
+  border:3px solid white;
+  border-radius: 30px;
+  margin-left:40px; 
+  list-style-type: none;
+  float: left;
+  transition: all 0.4s ease; 
+  cursor: pointer;
+}
+
+ul li:hover{
+  border:3px solid #7671e6;
+  background: white;
+  color:#7671e6 ;
+  transform: scale(1.1);
+}
+
+#header .btn{
+
+  display: none;
+  border:2px solid white;
+  width: 200px;
+  transition:all 0.5s ease;
+  margin:100px auto;
+}
+
+#header .btn:hover{
+  border:2px solid orange;
+  background: white;
+  color:orange;
+}
+
+.btn:focus{
+  outline: none !important;
+}
+
+#work{
+  width: 100%;
+  padding: 50px 70px;
+  text-align: center;
+}
+
+.col-lg-3 h3{
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.col-lg-3 p{
+  font-size: 17px;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  margin: 5px 2px;
+  color: #afa6aa;
+  
+}
+.col-lg-3 p a{
+  font-size: 48px;
+}
+
+p a:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+#teaminfo{
+  width: 100%;
+}
+
+#teaminfo img{
+  max-width: 520px;
+}
+
+#team1 img{
+  margin: 0 auto;
+}
+
+#team1 .btn{
+  width: 300px;
+  font-weight: bold;
+  font-size: 20px;
+  background: white;
+  color:#7671e6; 
+  border:3px solid #cfcdca;
+  transition:all 0.7s ease;
+}
+
+#team1 .btn:hover{
+  background: #7671e6;
+  color:white; 
+  transform:rotate(-5deg);
+}
+
+#team2{
+  padding:70px 30px;
+  font-size: 17px; 
+}
+
+#team2 h2{
+  color: #7671e6;
+  font-weight: bold;
+  font-size: 39px;
+}
+
+#team2 img{
+  max-width: 300px; 
+  float: left;
+}
+
+#team2 .btn{
+  font-weight: bold;
+  background: skyblue;
+  color:white; 
+  border:2px solid white;
+  transition:all 0.7s ease;
+  margin:140px 15px;
+}
+
+#team2 .btn:hover{
+  background: white;
+  border:2px solid skyblue;
+  color: skyblue;
+  transform: scale(1.1);
+}
+
+#menulink1 .btn{
+  outline: none !important;
+}
+
+#seeMenu1 {
+  position: absolute;
+  background: transparent;
+}
+
+.seeMenu {
+  width: 100%;
+  height: auto;
+}
+.image {
+  background-image: url("image/fishfood5.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 470px;
+  padding: 20px 20px;
+}
+
+.image:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #FFF;
+  position: relative;
+  text-align: center;
+  padding-top:100px; 
+}
+
+.text h3{
+  font-family:'Times, Times New Roman, Georgia', 'serif';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text p{
+  font-size:50px;
+}
+
+.text .btn{
+  background-color: transparent;
+  border:3px solid white;
+  width:100px;
+  padding:15px;
+  transition:all 0.5s ease;
+  font-weight: bold;
+
+}
+
+#menulink2 .btn{
+  background-color: transparent;
+  border:3px solid white;
+  width:100px;
+  padding:15px;
+  transition:all 0.5s ease;
+  font-weight: bold;
+  color:white;
+  background-color: transparent;
+  text-decoration: none; 
+}
+
+#menulink2 .btn:hover{
+  background-color: white;
+  color:black;
+}
+
+#menulink2 .btn{
+  outline: none !important;
+}
+
+#map{
+  padding: 0;
+  width: 100%;
+  margin-top:30px;
+}
+
+#location{
+  height: auto;
+  padding-left: 10px;
+}
+
+#suggestion{
+  width:50%;
+  color:#5b6268;
+  padding: 30px;
+  background-color: #9FB8DA;
+  height: auto;
+}
+
+#suggestion .btn{
+  background-color: #012246;
+  border:1px solid white;
+  transition: all 0.7s ease;
+  font-weight: bold;
+}
+
+#suggestion .btn:hover{
+  background-color: white;
+  color:#012246;
+}
+
+#footer{
+  width: 100%;
+  height: 40px;
+  margin-top:30px; 
+  background-color:#9FB8DA;
+  text-align: center;
+  padding-top: 10px;
+  color:#14222D;
+  font-weight: bold;
+}
+
+
+
+/*OVO JE ZA STRANU 2, tj. Menu.html*/
+
+#menuview{
+  position: relative;  
+  width: 100%;
+  height: 400px;
+  background-image: url("image/fishfood6.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  background-attachment: fixed;
+  padding:80px 0;
+}
+
+
+#menuview:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+#lista{
+  color: #FFF;
+  position: relative;
+  font-weight: bold; 
+  width: 80%;
+  margin-left:10%;
+}
+
+#list{
+  width: 100%;
+  margin:0;
+}
+
+#list li{
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 22px;
+  border:none;
+  transition: all 0.2s ease;
+  background-color: transparent; 
+}
+
+#list li:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+#menuview .container {
+  display: none;
+  cursor: pointer;
+  width: 70px;
+}
+
+.bar1, .bar2, .bar3 {
+  height: 5px;
+  background-color:#e0dfe0;
+  margin: 6px auto;
+  transition: all 0.4s ease;
+}
+
+#menuview h3{
+  font-weight: bold;
+}
+
+#menuh3{
+  cursor: pointer;
+  display: none;
+  font-size: 30px;
+  color:#ff1b2a;
+  transition: all 0.4s ease;
+}
+
+.row#specials{
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px 30px;
+  width: 100%;
+}
+
+
+.col-lg-4 h4{
+  font-size: 33px;
+  color:#ff1b2a;
+  font-weight: bold;
+}
+
+.col-lg-4 p{
+  cursor:pointer;
+  font-size: 20px;
+  color:#c0a0a4;
+  font-weight: bold;
+}
+
+.col-lg-4 p:hover{
+  transform:scale(1.1);
+  color:#9e4f59;
+}
+
+
+#seafood img{
+  cursor: pointer;
+  width: 690px;
+  margin: 10px auto; 
+  transition: all 0.5s ease;
+}
+
+#seafood img:hover{
+  transform: scale(1.1);
+  opacity:0.6;  
+}
+
+.row#goulash{
+  width: 100%;
+  text-align: center;
+  padding:30px;
+  color:#c0a0a4;
+  font-weight: bold;
+}
+
+#goulash h3{
+  font-size: 45px;
+  color:black;
+}
+
+#goulash img{
+  width: 200px;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#goulash img:hover{
+  transform: scale(1.1);
+  opacity:0.6; 
+}
+
+#leftmenu , #rightmenu{
+  display: none;
+  padding: 20px;
+}
+
+#goulash h4{
+  font-weight: bold;
+  color:#ff1b2a;
+}
+
+#goulash p{
+  font-size: 20px;
+}
+
+#goulash p:hover{
+  cursor: pointer;
+  transform:scale(1.1);
+  color:#9e4f59;
+  transition: all 0.2s ease;
+}
+
+#work2{
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#reservation{
+  width: auto;
+  background-image: url("image/restoran3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#reservation h4{
+  cursor: pointer;
+  font-size: 40px;
+  color:white;
+  border-top:3px solid white;
+  border-bottom:3px solid white;  
+  background-color: transparent;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+#reserv{
+  width: 50%;
+  height: 400px;
+  margin-left: 25%;
+  margin-top:20px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+#reservation1{
+  flex: 1;
+  width: 50%;
+  height:100%;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+#reservation1 img{
+  width: 100%;
+  height: 100%;
+}
+
+#reservation2{
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 25px;
+  background-color: white;
+  color: #b3a89b;
+}
+
+#reservation2 h5{
+  font-size: 30px;
+  color:#ff1b2a;
+  font-weight: bold;
+}
+
+#footer2{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color:#4570dd;
+  font-weight: bold;
+  padding-top:10px; 
+
+}
+
+#footer2 img{
+  width: 70px;
+}
+
+
+/*RESPONSIVE*   index.html/prva strana */
+
+@media (min-width: 800px) and (max-width: 1200px){
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row#work{ 
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .row#teaminfo{ 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #team1 img{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #team1 .btn{
+    font-size: 15px;
+    width: 180px;
+  }
+
+  #team2.col-lg-6{ 
+    margin-top:10px;
+    text-align: center;
+    padding: 10px 60px;
+  }
+
+  #team2.col-lg-6 img{
+    width:30%; 
+    margin-top:60px; 
+    margin-left: 20%; 
+  }
+
+  .text p{
+    font-size: 20px;
+  }
+
+ .seeMenu{
+    height: auto;
+ }
+
+#map{
+    padding-left:30px;
+}
+ 
+ #location{
+    width:100%; 
+ }
+
+ #suggestion{
+    width:100%;
+ }
+
+/*RESPONSIVE*   menu.html/druga strana */
+
+ .row#work2{
+    text-align: center;
+    padding:0;
+    margin: 0;
+ }
+
+ #specials2{
+    padding: 10px 0;
+    text-align: center;
+ }
+
+ #specials{
+    margin: 0;
+ }
+
+#seafood img{
+    max-width: 300px;
+}
+
+#goulash{
+    margin: 0;
+}
+
+ #goulash h3{
+    font-size: 30px;
+    color:black;
+}
+
+#leftmenu{
+    width: 80%;
+    margin-left:10%;
+}
+
+#reserv{
+    width: 60%;
+    margin-left:20%;
+    height: 400px;
+}
+
+#reservation2{
+    padding: 20px 5px;
+    font-size: 22px;
+    flex-shrink:0;
+}
+
+}
+
+
+
+
+
+/*  Responsive */
+@media (max-width: 799px){
+
+ *{
+    margin: 0;
+    padding: 0;
+  }
+
+ #header{
+    padding: 10px 0;
+    height:auto;
+ } 
+
+ #fish{
+    display: none;
+ }
+
+#menu {
+    width: 80%;
+    margin-left:10%;
+    padding: 0;
+ }
+
+ #menu ul{
+    display: none;
+ }
+
+
+ #menu li{
+    float: none;
+    width: 80%;
+    padding: 4px 5px;
+    margin-left: 10%;
+    margin-top:10px;  
+ } 
+
+ #header .btn{
+    display: block;
+    margin-top:30px;
+ }
+  
+ .row#work{ 
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+ .row#teaminfo{ 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #team1 img{
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  #team1 .btn{
+    font-size: 15px;
+    width: 180px;
+  }
+
+  #team2.col-lg-6{ 
+    margin-top:15px;
+    text-align: center;
+    padding: 15px 50px;
+  }
+
+  #team2.col-lg-6 img{
+    display: none; 
+  }
+
+  #team2 .btn{
+    margin:10px 0;
+  }
+
+  .text p{
+    font-size: 20px;
+  }
+
+ .seeMenu{
+    height: auto;
+ }
+
+ .seeMenu #text{
+    padding: 0 20px;
+ }
+
+#map{
+    padding-left:30px;
+}
+ 
+ #location{
+    width:100%; 
+ }
+
+ #suggestion{
+    width:100%;
+ }
+
+/*RESPONSIVE*   menu.html/druga strana */
+
+#menuview{
+    padding: 30px 0;
+    background-size: contain;
+}
+
+ul#list{
+    display: none;
+    width:80%;
+    margin-left: 10%;
+    position: absolute;
+    top: 50px;
+}
+
+#list li{
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    margin: 20px 0;
+}
+
+h3#menuh3{
+    position: absolute;
+    top:0;
+    left: 20px;
+    display: block;
+    padding:0;
+    margin: 3px 2px;
+}
+
+#list li:hover{
+    text-decoration:none;
+}
+
+#lista h3{
+    display: none;
+}
+
+#menuview .container{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right: 20px;
+}
+
+#menuview .container:hover .bar1{
+    background:#eef1ae;
+}
+
+#menuview .container:hover .bar2{
+    background: #eef1ae;
+}
+
+#menuview .container:hover .bar3{
+    background: #eef1ae;
+}
+
+ .row#work2{
+    text-align: center;
+    padding:0;
+    margin: 0;
+ }
+
+ #specials2{
+    padding: 10px 0;
+    text-align: center;
+ }
+
+ #specials{
+    margin: 0;
+ }
+
+#seafood img{
+    max-width: 200px;
+}
+
+#goulash{
+    margin: 0;
+}
+
+ #goulash h3{
+    font-size: 30px;
+    color:black;
+}
+
+#leftmenu{
+    width: 80%;
+    margin-left:10%;
+}
+
+#reservation{
+    height: auto;
+}
+
+#reserv{
+    width: 50%;
+    height: 350px;
+    margin-left: 25%;
+}
+
+#reservation h4{
+    font-size: 25px;
+    width: 50%;
+    margin-left:25%;
+}
+
+#reservation1{
+    display: none;
+}
+
+#reservation2{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    background: transparent;
+    color: white;
+}
+
+#reservation2 h5{
+    width: 60%;
+    font-size: 24px;
+    padding: 10px 10px;
+    margin-left:20%;
+    color:#696640;
+    border: 3px solid #696640;
+}
+
+#reservation2 h5:hover{
+    color:white;
+    border-color:white;
+}
+
+}
